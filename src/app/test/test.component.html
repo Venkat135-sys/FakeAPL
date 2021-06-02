@@ -1,0 +1,20 @@
+<div class="table mt-4">
+    <table class="table align-middle text-center bg-info ">
+      <thead >
+        <tr>
+            <th style="border:2px solid green;">
+               <b> ID</b>
+            </th>
+            <th style="background-color: #6E3229; border:2px solid yellow;">
+                <b>NAME</b>
+            </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor='let chefObj of chefs'>
+            <td style="border:2px solid green;"><button class="btn btn-success"  (click)=onSelectId(chefObj.id)>{{chefObj.id}}</button></td>
+            <td class="text-warning" style="background-color: #6E3229; border:2px solid yellow;">{{chefObj.name}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

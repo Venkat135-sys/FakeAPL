@@ -1,0 +1,14 @@
+.card-header{
+    color: #130405;
+    border: 3px solid #0b1e26;
+    background-color: 	#96632f;
+}
+img{
+    border: 2px solid #c2b7b4;
+}
+.card-body{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #a4b7ba;
+    color: 	#8f0c0c;
+}
